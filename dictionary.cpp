@@ -9,7 +9,7 @@
 #include <string>
 using namespace std;
 
-int MinWordLength(std::string words[], int length) {
+int MinWordLength(string words[], int length) {
     // TODO implement this function
     int smallest = 0;
     for (int i = 0; i < length; i++){
@@ -20,7 +20,7 @@ int MinWordLength(std::string words[], int length) {
     return words[smallest].length();
 }
 
-int MaxWordLength(std::string words[], int length) {
+int MaxWordLength(string words[], int length) {
    int largest = 0;
     for (int i = 0; i < length; i++){
       if (words[largest].length() < words[i].length()){

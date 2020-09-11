@@ -1,5 +1,6 @@
 #include <iostream>
 #include "search.h"
+#include "dictionary.h"
 
 int main() {
   int list[] = {1,2,4,5,6,7,8,9};

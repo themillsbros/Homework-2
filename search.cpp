@@ -35,3 +35,5 @@ int BinarySearch(int numbers[], int length, int n) {
           first = middle + 1;
         }
       }
+       return position;
+}

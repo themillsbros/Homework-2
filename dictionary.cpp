@@ -41,7 +41,7 @@ int WordLengthRange(string words[], int length) {
 }
 
 int AverageWordLength(string words[], int length) {
-  int sum;
+  int sum = 0;
 
   for (int i = 0; i < length; i++){
     sum += words[i].length();

@@ -1,6 +1,7 @@
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 #include <string>
+#include <iostream>
 int MinWordLength(std::string words[], int length);
 
 int MaxWordLength(std::string words[], int length);

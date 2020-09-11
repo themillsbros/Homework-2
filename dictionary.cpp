@@ -34,8 +34,8 @@ int WordLengthRange(string words[], int length) {
     int largest;
     int smallest;
     
-    largest = MaxWordLength(words, length)
-    smallest = MinWordLength(words, int length)
+    largest = MaxWordLength(words, length);
+    smallest = MinWordLength(words, length);
 
     return largest - smallest;
 }
@@ -64,6 +64,7 @@ int MostCommonWordLength(string words[], int length) {
     if (counter > maxcount){
       maxcount = counter;
       maxcountindex = i;
+    }
     }
 
     return words[maxcountindex].length();

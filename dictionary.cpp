@@ -51,12 +51,12 @@ int AverageWordLength(string words[], int length) {
 
 int MostCommonWordLength(string words[], int length) {
     int counter = 0;
-    int maxcountindex;
+    int maxcountindex = -1;
     int maxcount = 0;
     
     for ( int i = 0; i < length; i++){
       counter = 0;
-      for ( int j = 0; j < length; i++){
+      for ( int j = 0; j < length; j++){
         if (words[i].length() == words[j].length()){
           counter++;
         }

@@ -13,5 +13,11 @@ int main() {
 
   std::cout << "Binar Search: " << BinarySearch(list,array_length,number) <<  std::endl;
 
-  std::cout << "MinWordLength" << MinWordLength(words, 4) << std::endl;
+  std::cout << "MinWordLength " << MinWordLength(words, 4) << std::endl;
+  std::cout << "MaxWordLength " << MaxWordLength(words,4)  << std::endl;
+  std::cout << "Range " << WordLengthRange(words, 4) << std::endl;
+  std::cout << "Avg " << AverageWordLength(words, 4) << std::endl;
+  std::cout << "common" << MostCommonWordLength(words, 4);
+
+  return 0;
 }

@@ -1,6 +1,6 @@
-#ifndef ROOT_H
-#define ROOT_H
+#ifndef NTH_ROOT_FINDER_H
+#define NTH_ROOT_FINDER_H
 
-string FindNthRoot(int, int, int);
+std::string FindNthRoot(int, int, int);
 
 #endif
